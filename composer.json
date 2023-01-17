@@ -1,0 +1,41 @@
+{
+    "name": "seguncodes/smyphp",
+    "keywords": [
+		"smyphp",
+		"phpframeworks",
+        "smyphp framework",
+        "smyphp php framework"
+	],
+	"type": "project",
+    "description": "Smyphp is a lightweight PHP framework built for developers who need a simple framework to create web applications",
+	"license": "MIT",
+	"minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SmyPhp\\": "./",
+            "App\\": "App/"
+        }
+    },
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/SegunCodes/smyphp"
+		}
+	],
+    "authors": [
+        {
+            "name": "Olusegun Joe-Alabi",
+            "email": "shegstix64@gmail.com",
+            "homepage": "https://twitter.com/dreal_olusegun"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.6",
+        "firebase/php-jwt": "^6.3",
+        "filp/whoops": "^2.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
