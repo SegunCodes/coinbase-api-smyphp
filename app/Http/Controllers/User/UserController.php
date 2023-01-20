@@ -10,11 +10,11 @@ use SmyPhp\Core\Application;
 
 class UserController extends Controller{
 
-    public function login(Request $request, Response $response){
+    public function register(Request $request, Response $response){
        
     }
-    
-    public function register(Request $request, Response $response){
+
+    public function login(Request $request, Response $response){
        
     }
 
