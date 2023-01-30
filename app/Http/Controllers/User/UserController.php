@@ -7,6 +7,7 @@ use App\Models\User;
 use SmyPhp\Core\Http\Request;
 use SmyPhp\Core\Http\Response;
 use SmyPhp\Core\Application;
+use SmyPhp\Core\DatabaseModel;
 
 class UserController extends Controller{
 
